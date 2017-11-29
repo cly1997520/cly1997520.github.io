@@ -1,0 +1,45 @@
+
+a{
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+#app{
+    text-align: center;
+}
+#app header{
+    margin: auto;
+    width: 50%;
+}
+#app header nav ul li{
+    float: left;
+    display: inline-block;
+    margin-left: 15px;
+    background: #ccc;
+    padding: 10px;
+
+}
+#app header nav ul::after{
+    display: table;
+    content: "";
+    clear: both;
+}
+
+.need{
+    width: 25%;
+    margin: 0 auto;
+}
+.need p{
+    float: left;
+    margin-left: 15px;
+}
+.need::after{
+    display: table;
+    content:"";
+    clear: both;
+}
+.section{
+    width: 50%;
+    margin: 0 auto;
+}

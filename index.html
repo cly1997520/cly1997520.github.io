@@ -5,20 +5,66 @@
 	<title></title>
 	<link rel="stylesheet" href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css">
 	<style>
-	.container img{
+	body{
+		
+		background:url("img/body.gif");
 		background-size: cover;
 
+	}
+	a{
+		text-decoration: none;
+	}
+	li{
+		list-style: none;
+	}
+	.container ul{
+		padding: 20px;
+	}
+	.container ul li{
+		float: left;
+		display: inline-block;
+		padding: 20px;
+	}
+	.container ul li a:hover{
+		color:red;
+	}
+	.container ul::after{
+		display: table;
+		content:"";
+		clear: both;
+	}
+	.container ul li a{
+		font-size:25px;
+		color:#fff;
+	}
+	.thumbnail{
+		background-color: #fff;
+		opacity: 0.8;
+	}
+	.thumbnail img{
+		width: 300px;
+	}
+	.caption{
+		text-align: center;
+	}
+	.mainContainer{
+		background-color: #49a5bf;
+		text-align: center;
+		padding-top: 15px;
+	}
+	.mainContainer ul li{
+		width: 324px;
+	    display: inline-block;
+	    font-family: proxima_novasemibold,'Helvetica Neue',Helvetica,Arial,sans-serif;
+	    font-size: 16px;
+	    color: #11435d;
+	    height: 50px;
+	    margin-top: 20px;
 	}
 	</style>
 </head>
 <body>
 <div class="container">
-	<img src="img/banner.gif" alt="">
-	<div class="logo">
-		<img src="img/22.jpg" alt="">
-	</div>
-	
-
 	<ul>
 		<li><a href="#">概述</a></li>
 		<li><a href="#">示例</a></li>
@@ -31,8 +77,8 @@
 		    <div class="thumbnail">
 		      <img src="img/123.png" alt="">
 		      <div class="caption"> 
-		        <p>及时预览</p>
-		        <p><a target='_blank' href="uikit/index.html" class="btn btn-primary" role="button">Button</a></p>
+		        <p>uikit网页预览</p>
+		        <p><a target='_blank' href="uikit/index.html" class="btn btn-primary" role="button">预览</a></p>
 		      </div>
 		    </div>
 		  </div>
@@ -44,8 +90,8 @@
 		      
 		      <div class="caption">
 		     
-		        <p>及时预览</p>
-		        <p><a target='_blank' href="51job/index.html" class="btn btn-primary" role="button">Button</a></p>
+		        <p>job预览</p>
+		        <p><a target='_blank' href="51job/index.html" class="btn btn-primary" role="button">预览</a></p>
 		        
 
 		      </div>
@@ -54,14 +100,24 @@
 		  <div class="col-sm-6">
 		  	<div class="thumbnail">
 		  		<img src="img/11.png" alt="">
-		  	</div>
-		  	<div class="caption">
-		  	    <p>即时预览</p>
-		  		<p><a target='_blank' href="hot.html/index.html" class="btn btn-primary" role="button">Button</a></p>
-		  	</div>
 		  	
+		  	<div class="caption">
+		  	    <p>热卖单品预览</p>
+		  		<p><a target='_blank' href="hot.html/index.html" class="btn btn-primary" role="button">预览</a></p>
+		  	</div>
+		  	</div>
 		  </div>
 	
-	</div>
+	  </div>
+	  <div class="mainContainer">
+	  	
+	  	<h1>现在就可以开始制作自己的网页</h1>  	
+	  		<ul>
+	  			<li class="celearfix">1.注册并获得你的免费账户</li>
+	  			<li class="celearfix">2.使用网页预览来充实你的内容</li>
+	  			<li class="celearfix">3.升级到专业版并升级为您自己的域名</li>	  			
+	  		</ul>
+	  </div>
+ </div>
 </body>
 </html>

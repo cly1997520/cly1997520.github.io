@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        #app ul{
+            margin:auto;
+            width: 80%;
+        }
+        #app ul li{
+            list-style: none;
+            width: 200px;
+            border:1px solid #999;
+            float: left;
+            margin-left: 15px;
+            margin-top: 15px;
+            padding: 15px;
+        }
+        #app ul li:hover{
+            border:1px solid red;
+        }
+        #app ul li a{
+            text-decoration: none;
+            color:#666;
+        }
+        #app ul li .lie1 a{
+            color:#999;
+            line-height: 32px;
+            font-size:14px;
+        }
+        #app ul li .lie2 a{
+            color:red;
+            font-size:18px;
+        }
+        #app ul li .lie2 a span{
+            color:#999;
+            font-size:10px;
+        }
+        #app ul li .lie2 s{
+            color:#999;
+            font-size:14px;
+            cursor: pointer;
+        }
+        #app ul li .lie2 s:hover{
+            text-decoration: none;
+        }
+        #app ul li .lie2 em{
+            color:#999;
+            font-size:10px;
+            cursor: pointer;
+            float: right;
+        }
+        #app ul li .lie2::after{
+            display: table;
+            content:'';
+            clear: both;
+        }
+        #app ul li .lie2 em{
+            font-size:14px;
+            color:#999;
+        }
+    </style>
+</head>
+<body>
+<div id="app">
+    <ul>
+        <hot-shop v-for="shop in shops" v-bind="shop">
+
+        </hot-shop>
+    </ul>
+</div>
+<script src="js/vue.js"></script>
+<script src="js/单品.js"></script>
+</body>
+</html>

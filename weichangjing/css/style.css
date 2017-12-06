@@ -38,32 +38,87 @@ body {
 .s1 .header img:nth-of-type(1){
     width: 30px;
     position: absolute;
-    top: 130px;
+    top: 90px;
     left: 49px;
 }
 .s1 .header img:nth-of-type(2){
-    width: 60px;
+    width: 53px;
     position: absolute;
-    top: 89px;
+    top: 65px;
     right: 37px;
 }
 .s1 .header img:nth-of-type(3){
-    width: 50px;
+    width: 40px;
     position: absolute;
-    top:428px;
-    left: 30px;
+    top:340px;
+    left: 25px;
 
 }
 .s1 .header img:nth-of-type(4){
-    width: 50px;
+    width: 30px;
     position: absolute;
-    top:409px;
+    top:324px;
     right: 50px;
 }
 .s1 .header img:nth-of-type(5){
-    width: 70%;
+    width: 66%;
     position: absolute;
-    top:163px;
-    left: 69px;
+    top:128px;
+    left: 16%;
+}
+.s1 .header img:nth-of-type(6){
+    width: 2%;
+    position: absolute;
+    top:22px;
+    left: 250px;
+    transform: rotate(60deg);
+
 }
 
+/*第一屏文字样式*/
+.s1 .main{
+    position: relative;
+}
+.s1 .main img:nth-of-type(1){
+    width: 104px;
+    position: absolute;
+    top:150px;
+    left: 30%;
+}
+.s1 .main img:nth-of-type(2){
+    width: 81%;
+    position: relative;
+    top:190px;
+
+}
+.s1 .main .img9{
+    background: url("../img/9.png");
+    background-size:100%;
+    width: 200px;
+    position: absolute;
+    top: 250px;
+    left:16%;
+    font-size:17px;
+
+}
+.s1 .footer{
+    position: relative;
+    top: 60%;
+}
+.s1 .footer p{
+    color:#0ca996;
+    font-size:14px;
+    font-weight:bold;
+    line-height: 1;
+}
+.s1 .footer img:nth-of-type(1){
+    position: absolute;
+    width: 158%;
+    top: 66px;
+
+}
+.s1 .footer img:nth-of-type(2){
+    position: relative;
+    width: 113%;
+    top: 15px;
+}

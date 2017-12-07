@@ -1,3 +1,8 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 html, body {
     position: relative;
     height: 100%;
@@ -93,12 +98,13 @@ body {
 }
 .s1 .main .img9{
     background: url("../img/9.png");
-    background-size:100%;
+    background-size:cover;
     width: 200px;
     position: absolute;
     top: 354px;
     left:22%;
-    font-size:17px;
+    line-height: 23px;
+    font-weight: bold;
 
 }
 .s1 .footer{

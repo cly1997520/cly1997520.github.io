@@ -48,16 +48,16 @@ body {
     right: 37px;
 }
 .s1 .header img:nth-of-type(3){
-    width: 40px;
+    width: 53px;
     position: absolute;
-    top:340px;
+    top:380px;
     left: 25px;
 
 }
 .s1 .header img:nth-of-type(4){
-    width: 30px;
+    width: 40px;
     position: absolute;
-    top:324px;
+    top:332px;
     right: 50px;
 }
 .s1 .header img:nth-of-type(5){
@@ -70,7 +70,7 @@ body {
     width: 2%;
     position: absolute;
     top:22px;
-    left: 250px;
+    left: 346px;
     transform: rotate(60deg);
 
 }
@@ -80,15 +80,15 @@ body {
     position: relative;
 }
 .s1 .main img:nth-of-type(1){
-    width: 104px;
+    width: 140px;
     position: absolute;
-    top:150px;
+    top:168px;
     left: 30%;
 }
 .s1 .main img:nth-of-type(2){
     width: 81%;
     position: relative;
-    top:190px;
+    top:218px;
 
 }
 .s1 .main .img9{
@@ -96,29 +96,29 @@ body {
     background-size:100%;
     width: 200px;
     position: absolute;
-    top: 250px;
-    left:16%;
+    top: 313px;
+    left:24%;
     font-size:17px;
 
 }
 .s1 .footer{
     position: relative;
-    top: 60%;
+    top: 56%;
 }
 .s1 .footer p{
     color:#0ca996;
-    font-size:14px;
+    font-size:16px;
     font-weight:bold;
     line-height: 1;
 }
 .s1 .footer img:nth-of-type(1){
     position: absolute;
     width: 158%;
-    top: 66px;
+    top: 125px;
 
 }
 .s1 .footer img:nth-of-type(2){
     position: relative;
     width: 113%;
-    top: 15px;
+    top: 81px;
 }

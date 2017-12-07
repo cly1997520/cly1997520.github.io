@@ -85,6 +85,7 @@ body {
     position: relative;
 }
 .s1 .main img:nth-of-type(1){
+
     width: 140px;
     position: absolute;
     top:211px;
@@ -99,7 +100,7 @@ body {
 .s1 .main .img9{
     background: url("../img/9.png");
     background-size:cover;
-    width: 200px;
+    width: 207px;
     position: absolute;
     top: 354px;
     left:22%;
@@ -107,24 +108,27 @@ body {
     font-weight: bold;
 
 }
+/*footer部分*/
 .s1 .footer{
     position: relative;
     top: 56%;
+    height: 70px;
 }
 .s1 .footer p{
     color:#0ca996;
     font-size:16px;
     font-weight:bold;
-    line-height: 1;
+    line-height: 2;
 }
 .s1 .footer img:nth-of-type(1){
     position: absolute;
-    width: 158%;
-    top: 125px;
+    top: 139px;
+    height: 70px;
+    left: -102px;
 
 }
 .s1 .footer img:nth-of-type(2){
     position: relative;
-    width: 113%;
-    top: 81px;
+    top: 90px;
+    height: 70px;
 }

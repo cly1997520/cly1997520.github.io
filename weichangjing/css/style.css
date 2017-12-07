@@ -38,32 +38,32 @@ body {
 .s1 .header img:nth-of-type(1){
     width: 30px;
     position: absolute;
-    top: 90px;
+    top: 127px;
     left: 49px;
 }
 .s1 .header img:nth-of-type(2){
     width: 53px;
     position: absolute;
-    top: 65px;
+    top: 81px;
     right: 37px;
 }
 .s1 .header img:nth-of-type(3){
     width: 53px;
     position: absolute;
-    top:380px;
-    left: 25px;
+    top:405px;
+    left: 18px;
 
 }
 .s1 .header img:nth-of-type(4){
     width: 40px;
     position: absolute;
-    top:332px;
-    right: 50px;
+    top:404px;
+    right: 56px;
 }
 .s1 .header img:nth-of-type(5){
     width: 66%;
     position: absolute;
-    top:128px;
+    top:175px;
     left: 16%;
 }
 .s1 .header img:nth-of-type(6){
@@ -82,13 +82,13 @@ body {
 .s1 .main img:nth-of-type(1){
     width: 140px;
     position: absolute;
-    top:168px;
+    top:211px;
     left: 30%;
 }
 .s1 .main img:nth-of-type(2){
     width: 81%;
     position: relative;
-    top:218px;
+    top:265px;
 
 }
 .s1 .main .img9{
@@ -96,8 +96,8 @@ body {
     background-size:100%;
     width: 200px;
     position: absolute;
-    top: 313px;
-    left:24%;
+    top: 354px;
+    left:22%;
     font-size:17px;
 
 }

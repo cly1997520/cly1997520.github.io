@@ -32,6 +32,7 @@ body {
     top:auto;
     bottom:3%;
     margin-left:-13.5px;
+    animation: flip infinite;
 }
 
 
@@ -139,9 +140,6 @@ body {
 .s1 .footer img:nth-of-type(2){
     left: -95px;
     animation: flash infinite;
-}
-.swiper-button-next{
-    animation: pulse infinite;
 }
 /*s2第二屏样式*/
 

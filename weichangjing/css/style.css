@@ -47,24 +47,28 @@ body {
     position:absolute;
     top: 120px;
     left: 50px;
+    animation: flash infinite;
 }
 .s1 .header img:nth-of-type(2){
     width: 60px;
     position:absolute;
     top: 96px;
     left:276px;
+    animation: flash infinite;
 }
 .s1 .header img:nth-of-type(3){
     width: 60px;
     position:absolute;
     top: 430px;
     left: 36px;
+    animation: flash infinite;
 }
 .s1 .header img:nth-of-type(4){
     width: 50px;
     position:absolute;
     bottom:200px;
     right:48px;
+    animation: flash infinite;
 }
 .s1 .header img:nth-of-type(5){
     width: 70%;
@@ -72,6 +76,7 @@ body {
     top:25%;
     left: 50%;
     margin-left:-35%;
+    animation: flash infinite;
 }
 .s1 .header img:nth-of-type(6){
     width: 2%;
@@ -92,6 +97,7 @@ body {
 }
 .s1 .main img:nth-of-type(2){
     width: 80%;
+    animation: flipInY infinite;
 }
 .s1 .main p{
     color:#000;
@@ -128,11 +134,15 @@ body {
 }
 .s1 .footer img:nth-of-type(1){
     left: 0;
+    animation: flash infinite;
 }
 .s1 .footer img:nth-of-type(2){
     left: -95px;
+    animation: flash infinite;
 }
-
+.swiper-button-next{
+    animation: pulse infinite;
+}
 /*s2第二屏样式*/
 
 .s2{
@@ -142,6 +152,7 @@ body {
     font-size: 24px;
     position:relative;
     top:15%;
+    animation: flipInX infinite;
 }
 .s2 small{
     font-size:14px;
@@ -203,5 +214,6 @@ body {
     font-weight:bold;
     position:relative;
     top:20px;
+    animation: flipOutY infinite;
 
 }

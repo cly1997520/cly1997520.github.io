@@ -32,11 +32,11 @@ body {
     top:auto;
     bottom:3%;
     margin-left:-13.5px;
-    animation: flip infinite;
+    /*animation: flip infinite;*/
 }
 
 
-/*��一屏首页��*/
+/***一屏首页***/
 
 .s1,.s2,.s3{
     background: url(../img/bj.png);
@@ -48,28 +48,24 @@ body {
     position:absolute;
     top: 120px;
     left: 50px;
-    animation: flash infinite;
 }
 .s1 .header img:nth-of-type(2){
     width: 60px;
     position:absolute;
     top: 96px;
     left:276px;
-    animation: flash infinite;
 }
 .s1 .header img:nth-of-type(3){
     width: 60px;
     position:absolute;
     top: 430px;
     left: 36px;
-    animation: flash infinite;
 }
 .s1 .header img:nth-of-type(4){
     width: 50px;
     position:absolute;
     bottom:200px;
     right:48px;
-    animation: flash infinite;
 }
 .s1 .header img:nth-of-type(5){
     width: 70%;
@@ -78,14 +74,6 @@ body {
     left: 50%;
     margin-left:-35%;
     animation: flash infinite;
-}
-.s1 .header img:nth-of-type(6){
-    width: 2%;
-    position: absolute;
-    top:22px;
-    left: 346px;
-    transform: rotate(60deg);
-
 }
 
 /*main*/
@@ -135,11 +123,9 @@ body {
 }
 .s1 .footer img:nth-of-type(1){
     left: 0;
-    animation: flash infinite;
 }
 .s1 .footer img:nth-of-type(2){
     left: -95px;
-    animation: flash infinite;
 }
 /*s2第二屏样式*/
 
@@ -222,6 +208,7 @@ body {
     position:relative;
     top:15%;
     color:#00efcc;
+    animation: pulse infinite;
 }
 .s3 small{
     font-size:14px;
@@ -273,8 +260,6 @@ body {
 .s3 div p:nth-of-type(1){
     left:16%;
     margin-top: 31%;
-
-
 }
 .s3 div p:nth-of-type(2){
     left:65%;
@@ -283,22 +268,18 @@ body {
 .s3 div p:nth-of-type(3){
     left: 83%;
     margin-top: 63%;
-
 }
 .s3 div p:nth-of-type(4){
     left: 63%;
     margin-top: 100%;
-
 }
 .s3 div p:nth-of-type(5){
     left: 18%;
     margin-top: 101%;
-
 }
 .s3 div p:nth-of-type(6){
     left: 0;
     margin-top: 64%;
-
 }
 .s3 div p:nth-of-type(7){
     width: 120px;
@@ -306,7 +287,7 @@ body {
     line-height: 120px;
     left: 33%;
     margin-top: 53%;
-
+    animation: flip infinite;
 }
 .s3 .need{
     position:absolute;
@@ -316,13 +297,37 @@ body {
 }
 .s3 .need span:nth-of-type(1){
     color:#00f8ca;
-    /*position: absolute;*/
-    /*margin-top: 120%;*/
-    /*left: 6%;*/
 }
 .s3 .need span:nth-of-type(2){
     color:#00f8ca;
-    /*position: absolute;*/
-    /*margin-top: 130%;*/
-    /*left: 6%;*/
+}
+/*音频样式*/
+#mp3Btn img{
+    width: 10px;
+
+}
+#mp3Btn{
+    position: absolute;
+    top: 5%;
+    right: 5%;
+    z-index: 100;
+    width: 30px;
+    height: 30px;
+    background:rgba(0,0,0,0.5);
+    border-radius:50%;
+    border:4px solid #292929;
+    text-align: center;
+    animation: mp3Btn 4s;
+    transform: rotateZ(0deg);
+    /*一直执行*/
+    animation-iteration-count:infinite;
+    /*一直旋转*/
+    animation-timing-function:linear;
+}
+@keyframes mp3Btn {
+    from{
+        transform: rotateZ(0deg);
+    }to{
+        transform: rotateZ(360deg);
+    }
 }

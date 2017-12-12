@@ -25,15 +25,31 @@ body {
     font-size: 18px;
     background: #fff;
 }
+.swiper{
+    transform-origin: center;
+}
 .swiper-button-next{
-    transform: rotate(270deg);
     left:50%;
     right:auto;
     top:auto;
     bottom:3%;
     margin-left:-13.5px;
+    transform: rotate(-90deg);
+    width: 17px;
+    height: 29px;
+    background-size: contain;
+    animation: buttonnext 1.5s infinite;
 }
-
+@keyframes buttonnext {
+    0%{
+        bottom:3%;
+        opacity: 1;
+    }
+    100%{
+        bottom:8%;
+        opacity:0;
+    }
+}
 /***一屏首页***/
 .s1,.s2,.s3,.s4{
     background: url(../img/bj.png);
@@ -45,24 +61,28 @@ body {
     position:absolute;
     top: 120px;
     left: 50px;
+    animation: shake infinite;
 }
 .s1 .header img:nth-of-type(2){
     width: 60px;
     position:absolute;
     top: 96px;
     left:276px;
+    animation: shake infinite;
 }
 .s1 .header img:nth-of-type(3){
     width: 60px;
     position:absolute;
     top: 430px;
     left: 36px;
+    animation: shake infinite;
 }
 .s1 .header img:nth-of-type(4){
     width: 50px;
     position:absolute;
     bottom:200px;
     right:48px;
+    animation: shake infinite;
 }
 .s1 .header img:nth-of-type(5){
     width: 70%;
@@ -120,9 +140,27 @@ body {
 }
 .s1 .footer img:nth-of-type(1){
     left: 0;
+    animation: footerimg1 2s infinite;
 }
 .s1 .footer img:nth-of-type(2){
     left: -95px;
+    animation: footerimg2 2s infinite;
+}
+@keyframes footerimg1 {
+    0%{
+        left: 0;
+    }
+    100%{
+        left: 100px;
+    }
+}
+@keyframes footerimg2 {
+    0%{
+        left: -95px;
+    }
+    100%{
+        left: -75px;
+    }
 }
 /*s2第二屏样式*/
 
@@ -370,24 +408,144 @@ body {
     width: 82%;
     position:absolute;
     margin-left: -40%;
-    bottom: 100px;
+    bottom: 79px;
 }
 .s4 .main span:nth-of-type(1){
     color:#00efcc;
     position: absolute;
     left: 136px;
-    top: 214px;
+    top: 200px;
 }
 .s4 .main span:nth-of-type(2){
     color:#00efcc;
     position: absolute;
-    left: 264px;
-    top: 214px;
+    left: 255px;
+    top: 200px;
 }
 .s4 .main span img{
-    width: 55px;
-    height: 55px;
-    bottom:-14px;
-    right: 32px;
+    width: 30px;
+    height: 30px;
+    bottom:-3px;
+    right: 59px;
+}
+/*进度条*/
+.s4 .main p:nth-of-type(1){
+    color:#00ba9c;
+    position: absolute;
+    left: 62px;
+    top: 246px;
+}
+.s4 .main a{
+    color:#dcdedd;
+    text-decoration: none;
+}
+.s4 .main img:nth-of-type(2){
+    width: 14px;
+    height: 14px;
+    top: 253px;
+    animation: wobble infinite;
+
+}
+.s4 .main p:nth-of-type(2){
+    color:#00ba9c;
+    position: absolute;
+    right: 27px;
+    top: 272px;
+}
+.s4 .main img:nth-of-type(3){
+    width: 264px;
+    height: 14px;
+    top: 279px;
+}
+.s4 .main p:nth-of-type(3){
+    color:#00699b;
+    position: absolute;
+    top: 297px;
+    right: 138px;
+}
+.s4 .main img:nth-of-type(4){
+    width: 133px;
+    height: 14px;
+    top: 303px;
+
+}
+.s4 .main p:nth-of-type(4){
+    color:#00ba9c;
+    position: absolute;
+    right: 190px;
+    top: 348px;
+}
+.s4 .main img:nth-of-type(5){
+    width: 14px;
+    height: 14px;
+    top: 352px;
+    animation: wobble infinite;
+}
+.s4 .main img:nth-of-type(6){
+    width: 238px;
+    height: 14px;
+    top:380px;
+
+}
+.s4 .main p:nth-of-type(5){
+    color:#00699b;
+    position: absolute;
+    right: 141px;
+    top: 413px;
+}
+.s4 .main img:nth-of-type(7){
+    width: 127px;
+    height: 14px;
+    bottom: 235px;
+}
+.s4 .main p:nth-of-type(6){
+    color:#00ba9c;
+    position: absolute;
+    right: 31px;
+    top: 375px;
+}
+.s4 .main p:nth-of-type(7){
+    color:#00ba9c;
+    position: absolute;
+    left: 61px;
+    bottom: 183px;
+}
+.s4 .main img:nth-of-type(8){
+    width: 14px;
+    height: 14px;
+    top: 466px;
+    animation: wobble infinite;
+}
+.s4 .main img:nth-of-type(9){
+    width: 210px;
+    height: 14px;
+    bottom: 161px;
+}
+.s4 .main p:nth-of-type(8){
+    color:#00ba9c;
+    position: absolute;
+    right: 74px;
+    bottom: 158px;
+}
+.s4 .main img:nth-of-type(10){
+    width: 105px;
+    height: 14px;
+    bottom: 138px;
+}
+.s4 .main p:nth-of-type(9){
+    color:#00699b;
+    position: absolute;
+    right: 185px;
+    bottom: 133px;
+}
+/*footer 部分*/
+.s4 .main p:nth-of-type(10){
+    color:#00ba9c;
+    font-size:15px;
+    width: 80%;
+    position: absolute;
+    bottom: 79px;
+    left: 45px;
+
 }
 

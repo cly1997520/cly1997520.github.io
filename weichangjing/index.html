@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
 
     <!-- Link Swiper's CSS -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.0.5/css/swiper.css">
+    <link rel="stylesheet" href="https://cdn.bootcss.com/Swiper/4.0.5/css/swiper.min.css">
     <!--animate-->
     <link rel="stylesheet" href="css/animate.min.css">
 
@@ -22,10 +22,10 @@
         <div class="swiper-slide">
             <div class="ani s1" swiper-animate-effect="fadeInDown" swiper-animate-duration="1s" swiper-animate-delay="1s">
                 <div class="header">
-                    <img class="ani" swiper-animate-effect="bounceInDown" swiper-animate-duration="1.2s" swiper-animate-delay="1.5s" src="img/1.png" alt="">
-                    <img class="ani" swiper-animate-effect="bounceInDown" swiper-animate-duration="1.5s" swiper-animate-delay="1.5s" src="img/2.png" alt="">
-                    <img class="ani" swiper-animate-effect="bounceInDown" swiper-animate-duration="1.7s" swiper-animate-delay="1.5s" src="img/3.png" alt="">
-                    <img class="ani" swiper-animate-effect="bounceInDown" swiper-animate-duration="2s" swiper-animate-delay="1.5s" src="img/4.png" alt="">
+                    <img class="ani" swiper-animate-effect="shake" swiper-animate-duration="1.2s" swiper-animate-delay="1.5s" src="img/1.png" alt="">
+                    <img class="ani" swiper-animate-effect="shake" swiper-animate-duration="1.5s" swiper-animate-delay="1.5s" src="img/2.png" alt="">
+                    <img class="ani" swiper-animate-effect="shake" swiper-animate-duration="1.7s" swiper-animate-delay="1.5s" src="img/3.png" alt="">
+                    <img class="ani" swiper-animate-effect="shake" swiper-animate-duration="2s" swiper-animate-delay="1.5s" src="img/4.png" alt="">
                     <img class="ani" swiper-animate-effect="bounceInDown" swiper-animate-duration="2.3s" swiper-animate-delay="1.5s" src="img/6.png" alt="">
 
                 </div>
@@ -40,8 +40,8 @@
                 <div class="footer">
                     <p class="ani" swiper-animate-effect="bounceInRight" swiper-animate-duration="4s" swiper-animate-delay="2s">% 企业名称 %</p>
                     <p class="ani" swiper-animate-effect="bounceInLeft" swiper-animate-duration="4.2s" swiper-animate-delay="2s">2018年1月18日 晚8:00-11:00</p>
-                    <img class="ani" swiper-animate-effect="rubberBand" swiper-animate-duration="4.5s" swiper-animate-delay="2s" src="img/10.png" alt="">
-                    <img class="ani" swiper-animate-effect="rubberBand" swiper-animate-duration="4.5s" swiper-animate-delay="2s" src="img/11.png" alt="">
+                    <img src="img/10.png" alt="">
+                    <img src="img/11.png" alt="">
                 </div>
             </div>
         </div>
@@ -98,15 +98,29 @@
             </div>
         </div>
         <div class="swiper-slide">
-            <div class="s4">
-                <h2>
+            <div class="ani s4" swiper-animate-effect="bounceInLeft" swiper-animate-duration="1s" swiper-animate-delay="1s">
+                <h2 class="ani" swiper-animate-effect="flipInX" swiper-animate-duration="1s" swiper-animate-delay="1s">
                     发展数据
-                    <small>DEVELOPMENT</small>
+                    <small class="ani" swiper-animate-effect="fadeInDown" swiper-animate-duration="2s" swiper-animate-delay="1.3s">DEVELOPMENT</small>
                 </h2>
                 <div class="main">
                     <img src="img/16.png" alt="">
-                    <span><img src="img/18.png" alt="">2017</span>
-                    <span><img src="img/19.png" alt="">2016</span>
+                    <span><img src="img/18.png" alt="">2017年</span>
+                    <span><img src="img/19.png" alt="">2016年</span>
+                    <img class="ani" swiper-animate-effect="wobble" swiper-animate-duration="2s" swiper-animate-delay="1.3s" src="img/15.png" alt=""><p>销售额增长<a href="#">100%</a></p>
+                    <img src="img/20.png" alt=""><p>1.2亿</p>
+                    <img src="img/21.png" alt=""><p>6000万</p>
+                    <img class="ani" swiper-animate-effect="wobble" swiper-animate-duration="2s" swiper-animate-delay="1.3s" src="img/15.png" alt=""><p>盈利额增长<a href="">80%</a></p>
+                    <img src="img/20.png" alt=""><p>80 00万</p>
+                    <img src="img/21.png" alt=""><p>48 00万</p>
+                    <img class="ani" swiper-animate-effect="wobble" swiper-animate-duration="2s" swiper-animate-delay="1.3s" src="img/15.png" alt=""><p>用户增长<a href="">100%</a></p>
+                    <img src="img/20.png" alt=""><p>100万</p>
+                    <img src="img/21.png" alt=""><p>50万</p>
+                    <p>
+                        2017年无论是销售额还是用户数量都有显著增长，2018年再接再厉，再创辉煌！
+                    </p>
+
+
                 </div>
 
             </div>
@@ -118,9 +132,9 @@
     <!-- 分页器 -->
     <div class="swiper-pagination"></div>
     <!--前进后退按钮-->
-    <div class="swiper-button-next"></div>
+    <div class="swiper-button-next swiper-button-white"></div>
     <!--音乐 音频-->
-    <audio id="mp3" controls="controls" autoplay="autoplay" src="mp3/o_1br1qui4j106a081s921rnb1lj51k.mp3">
+    <audio id="mp3" controls="controls" src="mp3/o_1br1qui4j106a081s921rnb1lj51k.mp3" autoplay loop>
 
     </audio>
     <span id="mp3Btn">
@@ -129,7 +143,7 @@
 </div>
 
 <!-- Swiper JS -->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.0.5/js/swiper.js"></script>
+<script src="https://cdn.bootcss.com/Swiper/4.0.5/js/swiper.min.js"></script>
 
 <script src="js/swiper.animate1.0.2.min (1).js"></script>
 

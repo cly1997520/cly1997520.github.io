@@ -139,18 +139,10 @@ body {
     top: 39%;
     left: 14%;
 }
-
-.s1 p:nth-of-type(1){
-    position: absolute;
-    left: 9%;
-    bottom: 20%;
-    color:#fff;
+.s1 p{
     width: 80%;
-}
-.s1 p:nth-of-type(2){
-    width: 80%;
-    position: relative;
-    top: 82%;
+    position:absolute;
+    top: 79%;
     left: 10%;
     color:#fff;
 }

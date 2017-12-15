@@ -205,7 +205,10 @@ body {
     border:3px solid #d9acff;
 }
 .s2 .main p{
-    padding: 20px;
+    /*padding: 20px;*/
+    position: absolute;
+    top:10%;
+    left: 10%;
     font-size:18px;
     color:#fff;
     text-align: left;

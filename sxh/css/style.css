@@ -100,9 +100,8 @@ body {
 }
 .s1 img:nth-of-type(1){
     position: absolute;
-
     left: 133px;
-    top: 26px;
+    top: 15px;
     width: 100px;
     height: 100px;
 }
@@ -143,13 +142,15 @@ body {
 
 .s1 p:nth-of-type(1){
     position: absolute;
-    left: 20%;
+    left: 9%;
     bottom: 20%;
     color:#fff;
+    width: 80%;
 }
 .s1 p:nth-of-type(2){
+    width: 80%;
     position: absolute;
-    left: 20%;
+    left: 14%;
     bottom: 16%;
     color:#fff;
 }

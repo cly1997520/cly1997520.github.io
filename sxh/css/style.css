@@ -197,7 +197,7 @@ body {
 .s2 .main{
     background-size:contain;
     width: 73%;
-    height: 39%;
+    height: 45%;
     position: relative;
     border-radius: 6%;
     left: 48px;
@@ -205,8 +205,8 @@ body {
     border:3px solid #d9acff;
 }
 .s2 .main p{
-    padding: 32px;
-    font-size:16px;
+    padding: 20px;
+    font-size:18px;
     color:#fff;
     text-align: left;
 }
@@ -455,13 +455,13 @@ body {
 }
 .s6 img:nth-of-type(1){
     position: absolute;
-    left: 10%;
+    left: 0;
     top: 54%;
     width: 100%;
 }
 .s6 img:nth-of-type(2){
     position: absolute;
-    left: 10%;
+    left: 0;
     top: 45%;
     width: 100%;
 }

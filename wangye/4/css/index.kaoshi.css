@@ -1,0 +1,25 @@
+.navbar-brand{
+    margin-top:-6px;
+}
+#main .list{
+    margin-top:20px;
+}
+footer{
+    border-top:2px solid #fe6700;
+    background:#3f3b38;
+    color:#fff;
+    margin-top:49px;
+}
+footer ul li a{
+    color:#d3d4c6;
+}
+footer .row{
+    border-bottom:1px solid #555452;
+}
+h4{
+    margin-top:38px;
+}
+footer p{
+    margin-top:23px;
+    color:#eff0ea;
+}

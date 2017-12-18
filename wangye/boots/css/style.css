@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    background:radial-gradient(#61cfff,#2089b6);
+    color:#fff;
+}
+.container{
+    width: 966px;
+    margin: auto;
+}
+header .row span{
+    padding-top: 15px;
+}
+
+.banner img{
+    float:right;
+    margin-top: 5px;
+}
+.banner .com{
+    float: left;
+}
+.banner::after{
+    display: table;
+    content:"";
+    clear: both;
+}
+.col-md-6{
+    padding-top: 30px;
+}
+.banner h1{
+    width: 422px;
+    word-wrap: break-word;
+}
+.banner a{
+    text-decoration: none;
+    display: inline-block;
+    background:#2996cc;
+    padding:13px 51px;
+    color:#fff;
+}
+.banner a:hover{
+    background: #8CA0CC;
+    color:deepskyblue;
+}
+.row{
+    padding-top: 16px;
+    padding-bottom: 27px;
+}
+.row .col-md-3{
+    text-align: center;
+}
+.col-md-3 h4{
+    color:#2e3b4e;
+}
+.col-md-3 p{
+    color:#747e8e;
+}
+h5{
+    border:1px solid #e0e0e0;
+}
+.mon{
+    text-align: center;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+footer{
+    background: #1b2126;
+    color:#545f65;
+    padding-top:61px;
+    padding-bottom: 61px;
+}
+@media(max-width:960px){
+    .container{
+        width:80%;
+    }
+    .row1 span{
+        width: 100%;
+    }
+    .banner h1{
+        width: 100%;
+        word-wrap: break-word;
+    }
+    .banner img{
+        width: 100%;
+        margin: auto;
+    }
+}

@@ -1,0 +1,158 @@
+
+header{
+    border-top:10px solid red;
+    border-bottom:1px solid #e7e7e7;
+}
+
+.navbar-default {
+    background-color: #f8f8f8;
+    border-color: #e7e7e7;
+}
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
+    color: #f3a298;
+    background-color: #fff;
+    border-right:1px solid #e7e7e7;
+
+}
+.navbar-default {
+    background-color: #fff;
+}
+.navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
+    color: #fff;
+    background: #f3a298;
+
+}
+.navbar {
+
+    margin-bottom: 0;
+     border: 0;
+}
+.love{
+    margin-top: 100px;
+    text-align: center;
+}
+.love h1{
+    color:#5f5f5f;
+    margin-bottom: 40px;
+}
+.love p{
+    color:#d5d5d5;
+    margin-bottom: 76px;
+}
+.see{
+    height: 1px;
+    background: #dedede;
+}
+.love span{
+    background: #fff;
+    color:#f5726d;
+    font-size:12px;
+    position: relative;
+    top: -10px;
+    padding: 7px;
+}
+.lara{
+    padding-top:53px;
+    padding-bottom: 240px;
+}
+.lara p{
+    color:#727272;
+}
+
+.driver{
+    border:1px solid #dedede;
+    padding:30px;
+}
+.driver p{
+    color:#727272;
+}
+.echo{
+    border:1px solid #dedede;
+    padding:30px;
+}
+.eco{
+    text-align: center;
+}
+.eco h2{
+    margin-bottom: 12px;
+}
+.eco p{
+    font-size:15px;
+    color:#dedede;
+    margin-bottom: 27px;
+}
+.main{
+    margin-bottom: 73px;
+}
+.home{
+    border:1px solid #dedede;
+}
+.home .tead{
+    background: #f4645f;
+    padding: 28px;
+}
+.tead h3{
+    color:#fde0df;
+}
+.off{
+    background: #f5736f;
+    padding: 15px 22px;
+}
+.off p{
+    color:#fee8e7;
+}
+
+.home .tead1{
+    background: #27b4a8;
+    padding: 28px;
+}
+.tead1 h3{
+    color:#fde0df;
+}
+.off1{
+    background: #3cbbb1;
+    padding: 15px 22px;
+}
+.off1 p{
+    color:#fee8e7;
+}
+.and{
+    text-align: center;
+    padding-bottom: 46px;
+}
+.and span{
+    color:#f5726d;
+    font-size:12px;
+    background: #fff;
+    position: relative;
+    top: -10px;
+    padding: 7px;
+}
+.valet p{
+    color:#848e99;
+}
+.main-bottom{
+    margin-bottom: 80px;
+}
+footer{
+    background: #fafafa;
+    padding:58px 50px;
+    text-align: center;
+}
+footer ul{
+
+}
+footer ul li{
+    display: inline-block;
+    list-style:none;
+    padding-bottom: 38px;
+}
+footer ul a{
+    color:#717171;
+
+}
+footer p{
+    color:#bfbfbf;
+    display: inline-block;
+}
+

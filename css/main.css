@@ -525,8 +525,10 @@ input[type="submit"]:hover {
 
 .facebook-icon {
     padding: 10px 17px;
-    border: 1px solid #44619D;
-    background-color: #44619D;
+	background: url(../img/qq.png);
+	background-size: cover;
+    /*border: 1px solid #44619D;*/
+    /*background-color: #44619D;*/
 }
 
 .facebook-icon:hover {
@@ -536,8 +538,10 @@ input[type="submit"]:hover {
 
 .twitter-icon {
 	padding: 10px 15px;
-	border: 1px solid #33CCFF;
-	background-color: #33CCFF;
+	background: url(../img/xx.png);
+	background-size: cover;
+	/*border: 1px solid #33CCFF;*/
+	/*background-color: #33CCFF;*/
 }
 
 .twitter-icon:hover {
@@ -547,8 +551,9 @@ input[type="submit"]:hover {
 
 .g-plus-icon {
 	padding: 10px 15px;
-	border: 1px solid #DD4C39;
-	background-color: #DD4C39;
+	/*border: 1px solid #DD4C39;*/
+	background:url(../img/dd.png);
+	background-size: cover;
 }
 
 .g-plus-icon:hover {
@@ -558,8 +563,10 @@ input[type="submit"]:hover {
 
 .linkedin-icon {
 	padding: 10px 15px;
-	border: 1px solid #1B86BD;
-	background-color: #1B86BD;
+	background:url(../img/ww.png);
+	background-size: cover;
+	/*border: 1px solid #1B86BD;*/
+	/*background-color: #1B86BD;*/
 }
 
 .linkedin-icon:hover {
